@@ -1,4 +1,4 @@
-from conda/miniconda3:2141bfc4b60c
+from mcr.microsoft.com/devcontainers/miniconda:0-3
 
 RUN pip install --no-cache-dir jupyterhub
 
