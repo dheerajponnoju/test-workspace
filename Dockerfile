@@ -1,7 +1,7 @@
 FROM continuumio/miniconda3
 RUN python -m pip install --no-cache-dir notebook jupyterlab
 
-ARG NB_USER=jovyan
+ARG NB_USER=dheeraj
 ARG NB_UID=1000
 ENV USER ${NB_USER}
 ENV NB_UID ${NB_UID}
