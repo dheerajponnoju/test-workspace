@@ -1,7 +1,7 @@
 FROM jupyter/scipy-notebook:latest
 
 # RUN apk add gcc python3-dev musl-dev linux-headers
-RUN python -m pip install --no-cache-dir notebook jupyterlab
+RUN pip install --no-cache-dir jupyterhub
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000
