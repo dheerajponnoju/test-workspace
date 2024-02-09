@@ -1,1 +1,2 @@
-from archlinux
+FROM continuumio/miniconda3
+RUN conda install jupyter -y
