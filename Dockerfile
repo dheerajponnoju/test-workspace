@@ -1,4 +1,6 @@
 FROM python:alpine3.18
+
+RUN apk add gcc python3-dev musl-dev linux-headers
 RUN python -m pip install --no-cache-dir notebook jupyterlab
 
 # ARG NB_USER=jovyan
