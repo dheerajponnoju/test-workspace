@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3
+FROM python:alpine3.18
 RUN python -m pip install --no-cache-dir notebook jupyterlab
 
 ARG NB_USER=dheeraj
