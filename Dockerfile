@@ -1,6 +1,6 @@
 FROM jupyter/scipy-notebook:latest
 
-RUN apk add gcc python3-dev musl-dev linux-headers
+# RUN apk add gcc python3-dev musl-dev linux-headers
 RUN python -m pip install --no-cache-dir notebook jupyterlab
 
 ARG NB_USER=jovyan
