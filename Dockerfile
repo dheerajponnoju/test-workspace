@@ -1,4 +1,4 @@
-from conda/miniconda3:2141bfc4b60cc5eb332402207c80d884daa72fcefa48b50f3ccadd934d1f3d03
+from conda/miniconda3:2141bfc4b60c
 
 RUN pip install --no-cache-dir jupyterhub
 
