@@ -11,9 +11,10 @@ RUN python -m pip install --no-cache-dir notebook jupyterlab
 #     --gecos "Default user" \
 #     --uid ${NB_UID} \
 #     ${NB_USER}
+RUN mkdir /app
 
 # Make sure the contents of our repo are in ${HOME}
-COPY . ${HOME}
+COPY . /app
 # USER root
 # RUN chown -R ${NB_UID} ${HOME}
 # USER ${NB_USER}
