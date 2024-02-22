@@ -1,4 +1,4 @@
-from deltaio/delta-docker:0.8.1_2.3.0
+from jupyter/pyspark-notebook:latest
 
 # RUN pip install --no-cache-dir jupyterhub
 
