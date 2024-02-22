@@ -1,6 +1,6 @@
 from deltaio/delta-docker==0.8.1_2.3.0_arm64
 
-RUN pip install --no-cache-dir jupyterhub
+# RUN pip install --no-cache-dir jupyterhub
 
 ARG NB_USER=jovyan
 ARG NB_UID=8002
