@@ -1,7 +1,6 @@
 from jupyter/pyspark-notebook:latest
 
 # RUN pip install --no-cache-dir jupyterhub
-RUN apt install julia
 
 ARG NB_USER=jovyan
 ARG NB_UID=8002
@@ -21,5 +20,6 @@ ENV HOME /home/${NB_USER}
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
 USER root
+RUN apt install julia -y
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
