@@ -2,8 +2,8 @@ from jupyter/pyspark-notebook:latest
 
 # RUN pip install --no-cache-dir jupyterhub
 RUN apt install julia
-RUN /bin/sh -c julia -e "using Pkg; Pkg.add(\"IJulia\"); using IJulia;
-installkernel(\"Julia\");" && 'using Pkg;
+RUN /bin/sh -c JULIA_PROJECT="" julia -e "using Pkg; Pkg.add(\"IJulia\"); using IJulia;
+installkernel(\"Julia\", \"--project=${REPO_DIR}\");" && julia --project=${REPO_DIR} -e 'using Pkg;
 Pkg.instantiate(); Pkg.resolve(); pkg"precompile"
 
 ARG NB_USER=jovyan
