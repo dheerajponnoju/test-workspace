@@ -1,0 +1,13 @@
+{
+  "base_url": "/user/dheerajponnoju-test-workspace-vii0kz7v/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 14,
+  "port": 8888,
+  "root_dir": "/home/jovyan",
+  "secure": false,
+  "sock": "",
+  "token": "kpTjmWSyQaC6Mtks0_abrg",
+  "url": "http://jupyter-dheerajponnoju-2dtest-2dworkspace-2dvii0kz7v:8888/user/dheerajponnoju-test-workspace-vii0kz7v/",
+  "version": "1.24.0"
+}
