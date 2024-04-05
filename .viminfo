@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1712310085,,"wq"
+|2,0,1712310632,,"wq"
+:q
+|2,0,1712310158,,"q"
 
 # Search String History (newest to oldest):
 
@@ -25,16 +27,130 @@
 # Registers:
 
 # File marks:
-'0  3  8  ~/.ssh/config
-|4,48,3,8,1712310085,"~/.ssh/config"
+'0  1  3  ~/.gitignore
+|4,48,1,3,1712310632,"~/.gitignore"
+'1  1  3  ~/.gitignore
+|4,49,1,3,1712310542,"~/.gitignore"
+'2  2  45  ~/gitconfig.sh
+|4,50,2,45,1712310219,"~/gitconfig.sh"
+'3  1  0  ~/gitconfig.sh
+|4,51,1,0,1712310158,"~/gitconfig.sh"
+'4  1  0  ~/gitconfig.sh
+|4,52,1,0,1712310158,"~/gitconfig.sh"
+'5  3  8  ~/.ssh/config
+|4,53,3,8,1712310085,"~/.ssh/config"
 
 # Jumplist (newest first):
+-'  1  3  ~/.gitignore
+|4,39,1,3,1712310632,"~/.gitignore"
+-'  1  3  ~/.gitignore
+|4,39,1,3,1712310542,"~/.gitignore"
+-'  2  45  ~/gitconfig.sh
+|4,39,2,45,1712310219,"~/gitconfig.sh"
+-'  2  45  ~/gitconfig.sh
+|4,39,2,45,1712310219,"~/gitconfig.sh"
+-'  2  45  ~/gitconfig.sh
+|4,39,2,45,1712310219,"~/gitconfig.sh"
+-'  2  45  ~/gitconfig.sh
+|4,39,2,45,1712310219,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310176,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310176,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310176,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310176,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310158,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310158,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310158,"~/gitconfig.sh"
+-'  1  0  ~/gitconfig.sh
+|4,39,1,0,1712310158,"~/gitconfig.sh"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
+-'  3  8  ~/.ssh/config
+|4,39,3,8,1712310085,"~/.ssh/config"
 -'  3  8  ~/.ssh/config
 |4,39,3,8,1712310085,"~/.ssh/config"
 -'  1  0  ~/.ssh/config
 |4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1712310067,"~/.ssh/config"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1712310620	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/gitconfig.sh
+	*	1712310217	0
+	"	2	45
+	^	2	46
+	.	1	55
+	+	1	48
+	+	2	44
+	+	1	55
 
 > ~/.ssh/config
 	*	1712310083	0
