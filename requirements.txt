@@ -1,4 +1,3 @@
 pyspark
-numpy
-pandas
-github-cli
+ruff
+pylint
